@@ -10,9 +10,9 @@ settings = dict()
 
 
 # Publish Helper.
-if sys.argv[-1] == 'publish':
-    os.system('python setup.py sdist upload')
-    sys.exit()
+# if sys.argv[-1] == 'publish':
+#     os.system('python setup.py sdist upload')
+#     sys.exit()
 
 settings.update(
     name='cieloApi3',
